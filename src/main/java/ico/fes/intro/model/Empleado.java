@@ -1,0 +1,18 @@
+package ico.fes.intro.model;
+
+import lombok.*;
+
+import java.util.Date;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
+public class Empleado {
+    private int id;
+    private String Nombre;
+    private double sueldo;
+    private String departamento;
+    private String fechaNacimiento;
+}
